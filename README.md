@@ -8,6 +8,8 @@ Pre-requisite: This program uses the following goftp client. Please download it 
 
 ## config.properties file
 
+config.properties is a JSON file used by the FTPS downloader program to get FTPS server, login credential and other details given below.
+
 LocalTempPath - is a temporary folder where files can be saved while file download is in progress
 
 LocalPath - is destination folder where files are saved after download. A downstream program can collect files from this folder and process.
