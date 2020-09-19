@@ -24,7 +24,7 @@ ConnectRetry - number of connection retry attempt if FTPS server not reachable
 
 RetryInterval - Wait time in minutes between connection retry attempts
 
-Sample config.properties file entries:
+### Sample config.properties file entries:
 
 {  
 
@@ -36,9 +36,9 @@ Sample config.properties file entries:
    
    "Server":"127.0.0.1:21",
    
-   "Protocol":"FTPS",
+   **"Protocol":"FTPS",**
    
-   "TLSMode":"Explicit",
+   **"TLSMode":"Explicit",**
    
    "LocalTempPath":"C:/download/temp_download/",
    
